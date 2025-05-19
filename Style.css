@@ -1,0 +1,131 @@
+/* .nav{
+    display: flex;
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: poppins, sans-serif;
+  }
+  
+  /* Navbar container */
+  .nav {
+    max-width: 1440px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    padding: 10px 20px;
+  }
+  
+  /* Logo */
+  .logo {
+    height: 40px;
+  }
+  
+  /* Menu */
+  .navmenu1 {
+    display: flex;
+    gap: 20px;
+    font-weight: 600;
+  }
+  .navmenu1 a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    
+    padding: 6px 12px;
+    border-radius: 4px;
+    transition: background 0.3s;
+  }
+  
+  /* Hover effect */
+  .navmenu1 a:hover {
+    color: #033e9c; /* Slightly lighter navy */
+  }
+
+
+  .navmenu2 {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+  }
+  
+  .navmenu2 a {
+    color: rgb(255, 155, 155);
+    font-size: 25px;
+  }
+
+
+  /* newsdivmain */
+
+  .newsdivmain{
+    align-items: center;
+    display: flex;
+    max-width: 1440px;
+    margin: auto;
+    padding: 20px 20px 20px 20px;
+  }
+
+  .latestnews1{
+    color: aliceblue;
+    background-color: #033e9c;
+    padding: 12px 12px 12px 12px;
+  }
+
+  .latestnews2{
+    width: 1280px;
+    border: 2px solid rgb(97, 170, 253);
+    padding: 8px 8px 8px 8px;
+  }
+
+  /* AmirKhosru */
+  .Newssectionmain{
+    max-width: 1440px;
+    margin: auto;
+    padding-top: 50px;
+  }
+
+  .AmirKhosru{
+    display: flex;
+    width: 700px;
+    height: 252px;
+    border: 1px solid;
+    
+  }
+  .AmirKhosru1 {
+    padding: 5px 5px 5px 5px ;
+    background-color: #f5f5f5;
+    text-decoration: none;
+  }
+
+  /* Back */
+  .backDIV{
+    max-width: 1340PX;
+    margin: auto;
+    padding: 10px 10px 10px 10px ;
+  }
+  .back {
+    background-color: #5596ff;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    
+    padding: 5px 16px;
+    border-radius: 4px;
+    transition: background 0.3s;
+  }
+  .back:hover {
+    background-color: #cfe1fd; /* Slightly lighter navy */
+  }
+
+  .divRed{
+    width: 8px;
+    height: 30px;
+    background-color: red;
+    margin-right: 10px;
+  }
